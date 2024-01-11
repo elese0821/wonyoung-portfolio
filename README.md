@@ -177,7 +177,8 @@ npm install @reduxjs/toolkit
 npm install react-avatar
 
 # 문제해결
-- git config --global core.autocrlf true
+<details>
+ - git config --global core.autocrlf true
 
 - http-proxy-middleware  vite 환경에서는 사용하지않음
 vite config파일 변경
@@ -268,59 +269,7 @@ amount: 0.4 - 이는 전체 '지연' 시간을 의미합니다. 즉, 첫 번째 
 
 from: "start" - 이 옵션은 애니메이션 시퀀스가 어디서 시작할지를 정합니다. "start"는 시퀀스가 첫 번째 요소에서 시작되어 순차적으로 다음 요소로 진행됨을 의미합니다. 다른 옵션으로는 "end" (마지막 요소에서 시작), "center" (중간 요소에서 시작하여 양쪽으로 퍼져 나감), 또는 특정 인덱스 (특정 요소에서 시작) 등이 있습니다.
 
-## client
-npx create-react-app .   
-npm install sass   
-npm install react-bootstrap bootstrap   
-npm install react-router-dom   
-npm install axios   
-npm install http-proxy-middleware   
-npm install @emotion/css    
-npm install @emotion/react  
-npm install @emotion/styled   
-npm install firebase   
-npm install react-redux   
-npm install @reduxjs/toolkit   
-npm install react-avatar
-npm install moment
 
-## server
-npm init -y;   
-npm install express --save;   
-npm install nodemon --save;   
-npm install path --save;   
-npm install mongoose --save;   
-npm install multer --save;      
-npm install aws-sdk@2.348.0 --save;      
-npm install multer-s3@2.10.0 --save;      
-
-## 문제 해결
-- client 폴더에 화살표 생길 때 : .git 폴더를 지운다.   
-`rm -rf .git`   
-`git rm --cached . -rf`# simple300   
-
-## 미리보기
-[https://portfolio-won.vercel.app/]
-git config --global core.autocrlf true
-## GSAP
-```
-const appHeight = () => {
-    const doc = document.documentElement;
-    doc.style.setProperty("--app-height", `${window.innerHeight}px`);
-};
-window.addEventListener("resize", appHeight);
-appHeight();
-window.addEventListener("DOMContentLoaded", (event) => {
-    appHeight();
-});
-```
-- gsap.registerPlugin(ScrollTrigger);: 플러그인 등록
-- const appHeight = () => { ... }: 화면의 높이를 측정하여 CSS 변수 --app-height에 반영하는 함수 브라우저 창 크기 조절 시 이 함수를 통해 뷰포트의 높이를 업데이트
-- window.addEventListener("resize", appHeight);: 브라우저 창 크기가 조절될 때마다 appHeight 함수를 호출하여 뷰포트 높이를 업데이트합니다.
-- window.addEventListener("DOMContentLoaded", (event) => { ... });: 문서가 로드될 때 appHeight 함수를 호출하여 초기 뷰포트 높이를 설정합니다.
-```
-("use strict"); // 엄격모드
-```
 ## Lenis (라이브러리)
 
 Lenis는 스크롤 동작을 조정하기 위한 라이브러리입니다.
@@ -404,3 +353,5 @@ npm install react-avatar 명령은 React 애플리케이션에서 사용할 수 
 "react-avatar" 라이브러리를 사용하면 개발자들은 사용자 프로필 이미지, 그룹 아바타, 댓글 작성자의 이미지 등과 같은 아바타 이미지를 생성하고 표시하는 데 도움을 받을 수 있습니다. 이 라이브러리를 사용하면 이미지 크기, 모양, 색상 등을 설정할 수 있는 많은 옵션이 제공됩니다.
 
 예를 들어, 다음과 같이 "react-avatar"를 사용하여 프로필 이미지를 생성할 수 있습니다:
+
+</details>
