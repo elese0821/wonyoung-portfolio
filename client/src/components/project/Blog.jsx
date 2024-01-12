@@ -21,8 +21,8 @@ const Blog = () => {
 
                 <div className="item">
                     <div className="split_text_clip">
-                        <div text-split="" className="text-reg">Blog PROJECT</div>
-                        <div text-split="" className="text-reg">Blog PROJECT</div>
+                        <div text-split="" className="text-reg">BLOG PROJECT</div>
+                        <div text-split="" className="text-reg">BLOG PROJECT</div>
                     </div>
                     <div className="item__bg"></div>
                 </div>
@@ -43,7 +43,7 @@ const Blog = () => {
                         <p text-split="" className="text-reg">INTRODUCE</p>
                     </div>
                     <p className="item_desc">
-                        준비중입니다.
+                        REACT 프레임워크를 활용한 SIMPLE BLOG입니다.
                     </p>
                     <div className="item__bg"></div>
                 </div>
@@ -65,7 +65,7 @@ const Blog = () => {
                         <p text-split="" className="text-reg">GITHUB</p>
                         <p text-split="" className="text-reg">GITHUB</p>
                     </div>
-                    <a href='https://github.com/elese0821/next-blog' target='_blank' className="item__bg hover_effect"></a>
+                    <a href='https://github.com/elese0821/react-blog' target='_blank' className="item__bg hover_effect"></a>
                 </div>
 
                 <div className="item">
@@ -73,7 +73,7 @@ const Blog = () => {
                         <p text-split="" className="text-reg">VIEW</p>
                         <p text-split="" className="text-reg">VIEW</p>
                     </div>
-                    <a href='https://github.com/elese0821/next-blog' target='_blank' className="item__bg hover_effect"></a>
+                    <a href='https://react-blog-project-7dc015162b00.herokuapp.com/' target='_blank' className="item__bg hover_effect"></a>
                 </div>
 
                 <div className="item">
