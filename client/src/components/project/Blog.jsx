@@ -43,7 +43,9 @@ const Blog = () => {
                         <p text-split="" className="text-reg">INTRODUCE</p>
                     </div>
                     <p className="item_desc">
-                        심플 블로그는 React와 Node.js를 사용하여 서버와 클라이언트를 구성하고, MongoDB와 Firebase를 이용한 회원가입, 로그인, 로그아웃 기능을 포함하고 있습니다. 또한, 게시판, 이미지 업로드 및 관리, 아바타 설정 등의 기능도 제공합니다. 이러한 기능들은 사용자 경험을 향상시키고, 사이트의 상호작용과 개인화를 증진시키는 데 중요한 역할을 합니다. MongoDB는 데이터 저장과 관리를 위한 데이터베이스로 사용되며, Firebase는 사용자 인증과 관련된 서비스를 제공합니다. React는 사용자 인터페이스를 구축하는 데 사용되고, Node.js는 서버 사이드 로직을 처리합니다.
+                        React로 사용자 인터페이스를 구축하였고,  Node.js로 서버 사이드 로직을 처리하였습니다.<br />
+                        Firebase, MongoDB를 이용한 회원가입, 로그인, 로그아웃 기능과 게시판, 이미지 업로드 및 관리, 아바타 설정 등의 기능도 제공합니다.<br />
+                        MongoDB는 데이터 저장과 관리를 위한 데이터베이스로 사용하였고, Firebase를 활용하여 사용자 인증과 관련된 서비스를 제공하였습니다.
                     </p>
                     <div className="item__bg"></div>
                 </div>
