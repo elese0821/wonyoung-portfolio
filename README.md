@@ -13,7 +13,7 @@
 - `GSAP와 jQuery`를 사용한 애니메이션 효과
 
 heroku login
-heroku git:clone -a wnyg-portfolio
+heroku git:clone -a wonyoung-portfolio
 
 ## 특징
 - `React Router`: 사용자 경험을 향상시키기 위해 SPA(Single Page Application) 구조를 채택.
